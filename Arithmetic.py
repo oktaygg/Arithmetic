@@ -1135,7 +1135,7 @@ class MyWidget(QMainWindow):
 
     def okno(self):
         x = self.sender().text()
-        print(x)
+        
         if x == 'play':
             self.winnew = 1
             self.winold = 0
